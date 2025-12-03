@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources | Facts Against Rhetoric</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Facts Against Rhetoric</h1>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="hamburger" aria-hidden="true"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="topics.html">Topics</a></li>
+                <li><a href="resources.html" class="active">Resources</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h2>Resource Library</h2>
+            <p>Browse curated articles, videos, and books connected to Thomas Sowell’s economic, immigration, and governmental analysis.</p>
+        </section>
+
+        <section class="resources-controls">
+            <div class="search-filter">
+                <input type="search" 
+                       id="searchInput" 
+                       placeholder="Search resources..." 
+                       aria-label="Search resources">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="articles">Articles</button>
+                    <button class="filter-btn" data-filter="videos">Videos</button>
+                    <button class="filter-btn" data-filter="books">Books & Reports</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ARTICLES -->
+        <section class="resources-section" id="articles">
+            <h3>Articles</h3>
+            <div class="resources-grid">
+                <!-- ECONOMIC ISSUES – PDF essay -->
+                <article class="resource-card" data-category="articles" data-topic="economics">
+                    <div class="resource-content">
+                        <span class="resource-tag">Economic Issues</span>
+                        <h4>Basic Economic Principles (PDF)</h4>
+                        <p>A concise overview of core economic ideas featured on tsfreemind.com, including trade-offs, incentives, and the role of prices.</p>
+                        <a href="https://www.tsfreemind.com/_files/ugd/8f089b_38bb32212d304bcb8435549c88ddeda7.pdf"
+                           class="resource-link" target="_blank" rel="noopener">
+                           View PDF &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- IMMIGRATION – Brooklyn’s Chinese Pioneers -->
+                <article class="resource-card" data-category="articles" data-topic="immigration">
+                    <div class="resource-content">
+                        <span class="resource-tag">Immigration Issues</span>
+                        <h4>Brooklyn’s Chinese Pioneers</h4>
+                        <p>City Journal article on early Chinese immigrants in Brooklyn, assimilation, and community formation—linked from Sowell’s immigration resources.</p>
+                        <a href="https://www.city-journal.org/article/brooklyns-chinese-pioneers"
+                           class="resource-link" target="_blank" rel="noopener">
+                           Read Article &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- IMMIGRATION – Illegal Immigration’s Terrifying Cost -->
+                <article class="resource-card" data-category="articles" data-topic="immigration">
+                    <div class="resource-content">
+                        <span class="resource-tag">Immigration Issues</span>
+                        <h4>Illegal Immigration’s Terrifying Cost</h4>
+                        <p>Analysis of how illegal immigration strains public services, budgets, and law enforcement, featured under Immigration Issues.</p>
+                        <a href="https://www.city-journal.org/article/illegal-immigrations-terrifying-cost"
+                           class="resource-link" target="_blank" rel="noopener">
+                           Read Article &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- GOVERNMENT – A New Anticrime Agenda -->
+                <article class="resource-card" data-category="articles" data-topic="government">
+                    <div class="resource-content">
+                        <span class="resource-tag">Governmental Issues</span>
+                        <h4>Symposium: A New Anticrime Agenda</h4>
+                        <p>City Journal symposium outlining data-driven strategies for reducing crime and strengthening public safety.</p>
+                        <a href="https://www.city-journal.org/article/symposium-a-new-anticrime-agenda"
+                           class="resource-link" target="_blank" rel="noopener">
+                           Read Symposium &rarr;
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- VIDEOS -->
+        <section class="resources-section" id="videos">
+            <h3>Videos</h3>
+            <div class="resources-grid">
+                <!-- ECONOMIC ISSUES – Econ video 1 -->
+                <article class="resource-card" data-category="videos" data-topic="economics">
+                    <div class="resource-content">
+                        <span class="resource-tag">Economic Issues</span>
+                        <h4>Economic Facts vs. Rhetoric (Video)</h4>
+                        <p>A video resource highlighting key economic misconceptions and how basic principles clarify real-world policy debates.</p>
+                        <a href="https://www.youtube.com/watch?v=FEAkSLUO_14"
+                           class="resource-link" target="_blank" rel="noopener">
+                           Watch on YouTube &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- ECONOMIC ISSUES – Econ video 2 -->
+                <article class="resource-card" data-category="videos" data-topic="economics">
+                    <div class="resource-content">
+                        <span class="resource-tag">Economic Issues</span>
+                        <h4>Introduction to Basic Economics (Video)</h4>
+                        <p>Video explanation of supply and demand, prices, and trade-offs, recommended as a primer on Sowell-style economics.</p>
+                        <a href="https://www.youtube.com/watch?v=IaZ7yJkCS0I"
+                           class="resource-link" target="_blank" rel="noopener">
+                           Watch on YouTube &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- IMMIGRATION – YT video -->
+                <article class="resource-card" data-category="videos" data-topic="immigration">
+                    <div class="resource-content">
+                        <span class="resource-tag">Immigration Issues</span>
+                        <h4>Immigration, Culture, and Outcomes</h4>
+                        <p>YouTube discussion on immigration, assimilation, and how different policy incentives shape long-term results.</p>
+                        <a href="https://youtu.be/JWo4znXeeco"
+                           class="resource-link" target="_blank" rel="noopener">
+                           Watch on YouTube &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- GOVERNMENT – YT video -->
+                <article class="resource-card" data-category="videos" data-topic="government">
+                    <div class="resource-content">
+                        <span class="resource-tag">Governmental Issues</span>
+                        <h4>Crime, Policing, and Public Policy</h4>
+                        <p>A video on crime and policing in modern cities, focusing on incentives, data, and the consequences of different policy approaches.</p>
+                        <a href="https://youtu.be/V6ZPg6kOBkc"
+                           class="resource-link" target="_blank" rel="noopener">
+                           Watch on YouTube &rarr;
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- BOOKS / REPORTS -->
+        <section class="resources-section" id="books">
+            <h3>Books &amp; Reports</h3>
+            <div class="resources-grid">
+                <!-- ECON – reuse PDF as report-style resource if you want it here too -->
+                <article class="resource-card" data-category="books" data-topic="economics">
+                    <div class="resource-content">
+                        <span class="resource-tag">Economic Issues</span>
+                        <h4>Basic Economic Principles (Report)</h4>
+                        <p>A printable PDF summary of key economic ideas used throughout tsfreemind’s economic issues content.</p>
+                        <a href="https://www.tsfreemind.com/_files/ugd/8f089b_38bb32212d304bcb8435549c88ddeda7.pdf"
+                           class="resource-link" target="_blank" rel="noopener">
+                           Open PDF &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <!-- GOV – ProQuest / NYU ebook chapter -->
+                <article class="resource-card" data-category="books" data-topic="government">
+                    <div class="resource-content">
+                        <span class="resource-tag">Governmental Issues</span>
+                        <h4>Crime and Public Policy (Book Chapter)</h4>
+                        <p>Academic chapter accessible via NYU Libraries, providing research-based context for contemporary anticrime debates.</p>
+                        <a href="https://search.library.nyu.edu/permalink/01NYU_INST/1kqoq8k/cdi_proquest_ebookcentralchapters_5372746_53_211"
+                           class="resource-link" target="_blank" rel="noopener">
+                           Access via NYU Library &rarr;
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Facts Against Rhetoric. Promoting evidence-based thinking.</p>
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="topics.html">Topics</a>
+                <a href="resources.html">Resources</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
